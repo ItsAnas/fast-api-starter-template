@@ -1,0 +1,50 @@
+{
+    "Name": "Git commiter config",
+    "Description": "File used for the git commiter",
+    "Rules": [
+        {
+            "Prefix": "feat",
+            "Description": "feat: Implement new feature"
+        },
+        {
+            "Prefix": "doc",
+            "Description": "doc: writing doc"
+        },
+        {
+            "Prefix": "dependencies",
+            "Description": "dependencies: modify the requirements.txt"
+        },
+        {
+            "Prefix": "docker",
+            "Description": "docker: update Dockerfile or docker-compose.yaml"
+        },
+        {
+            "Prefix": "style",
+            "Description": "style: coding style without adding feature"
+        },
+        {
+            "Prefix": "doc",
+            "Description": "doc: writing doc"
+        },
+        {
+            "Prefix": "test",
+            "Description": "test: writing or fixing tests"
+        },
+        {
+            "Prefix": "ci",
+            "Description": "ci: add or modify ci"
+        },
+        {
+            "Prefix": "git",
+            "Description": "git: modify or change any behaviour of the git"
+        },
+        {
+            "Prefix": "fix",
+            "Description": "fix: fix bug"
+        },
+        {
+            "Prefix": "refacto",
+            "Description": "refacto: refactor code without changing the behavior"
+        }
+    ]
+}
