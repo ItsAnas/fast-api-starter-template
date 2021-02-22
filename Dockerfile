@@ -4,8 +4,8 @@ EXPOSE 80
 
 COPY ./src /docker-src/
 
-WORKDIR /docker-src/
+RUN pip install -r docker-src/requirements.txt
 
-RUN pip install -r requirements.txt
+WORKDIR /docker-src/app
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
